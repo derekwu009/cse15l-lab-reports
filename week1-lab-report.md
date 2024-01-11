@@ -23,11 +23,17 @@
 * There was an error because the argument was a `directory` instead of a `file` and the `cat` command doesn't take paths to `directories` as an argument.
 
 # Example of using `cd`, `ls`, `cat` with a path to a *file* as an arugment:
-![Image](1.5.png)
-* a
-* 
-![Image](1.6.png)
-* a
-* 
-![Image](1.7.png)
-* a
+![Image](1.8.png)
+* Working directory when command was run: `/home`.
+* I got the output because the argument was a path to a `file` instead of a `directory`.
+* The output is an error because the command was used with a path to a `file` instead of a `directory`.
+
+![Image](1.9.png)
+* Working directory when command was run: `/home`.
+* I got this output because the argument that was used is a path to a `file`, so the `file` was listed.
+* Output was not an error.
+
+![Image](1.10.png)
+* Working directory when command was run: `/home`.
+* I got this output because the contents of the `file`, "Hello World!", was read by the `cat` command.
+* Output was not an error.
