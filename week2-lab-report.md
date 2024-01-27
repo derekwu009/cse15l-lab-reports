@@ -14,10 +14,11 @@
 * After the request, the `value` of `msgs` changes from `user1: message1` to `user1: message`, followed by `user2: message2` on a separate line.
 
 # Part 2
-![Private Key](key.png)
+![Private Key](keys.png)
 * Absolute path: `C:\Users\derek\.ssh\id_ed25519`
 * 
-![Public Key](key.png)
+![Public Key](keys.png)
+* Absolute path: `C:\Users\derek\.ssh\id_ed25519.pub`
 
 # Part 3
 Something new I learned that I didn't know before was the `mkdir` command, which creates a new directory, and the `scp` command, which allows for remotely transferring files between two hosts.
