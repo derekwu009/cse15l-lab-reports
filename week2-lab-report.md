@@ -14,10 +14,9 @@
 * After the request, the `value` of `msgs` changes from `user1: message1` to `user1: message`, followed by `user2: message2` on a separate line.
 
 # Part 2
-![Private Key](keys.png)
+![Private Key](privateKey.png)
 * Absolute path: `C:\Users\derek\.ssh\id_ed25519`
-* 
-![Public Key](keys.png)
+![Public Key](publicKey.png)
 * Absolute path: `C:\Users\derek\.ssh\id_ed25519.pub`
 
 # Part 3
