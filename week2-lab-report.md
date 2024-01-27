@@ -15,9 +15,10 @@
 
 # Part 2
 ![Private Key](privateKey.png)
-* Absolute path: `C:\Users\derek\.ssh\id_ed25519`
+* Absolute path: `/Users/derek/.ssh/id_ed25519`
+
 ![Public Key](publicKey.png)
-* Absolute path: `C:\Users\derek\.ssh\id_ed25519.pub`
+* Absolute path: `/Users/derek/.ssh/id_ed25519.pub`
 
 # Part 3
 Something new I learned that I didn't know before was the `mkdir` command, which creates a new directory, and the `scp` command, which allows for remotely transferring files between two hosts.
