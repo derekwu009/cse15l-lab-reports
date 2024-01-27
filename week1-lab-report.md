@@ -1,7 +1,7 @@
 # Example of using `cd`, `ls`, `cat` with *no arguments*:
 ![Image](1.1.png)
 * The working directory when these commands were ran was: `/home`
-* For the `cd` command, I got no output because there are no arguments, so the directory isn't being changed.\
+* For the `cd` command, I was returned to the `home` directory because there were no arguments.\
   For the `ls` command, the output was `lecture1` because that is the folder within the current directory, `/home`.\
   For the `cat` command, there was also no output but the terminal was still waiting for an input because `cat` takes in a path as an argument.
 * None of the outputs were errors.
