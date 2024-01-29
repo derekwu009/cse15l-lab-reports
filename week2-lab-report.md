@@ -47,8 +47,8 @@ class ChatServer {
 * After the request, the `value` of `msgs` changes from `user1: message1` to `user1: message`, followed by `user2: message2` on a separate line.
 
 # Part 2
-![Private Key](privateKey.png)
-* Absolute path: `/Users/derek/.ssh/id_ed25519`
+![Private Key](key_Private.png)
+* Absolute path: `/c/Users/derek/.ssh/id_ed25519`
 
 ![Public Key](publicKey.png)
 * Absolute path: `/Users/derek/.ssh/id_ed25519.pub`
