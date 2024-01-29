@@ -50,8 +50,8 @@ class ChatServer {
 ![Private Key](key_Private.png)
 * Absolute path: `/c/Users/derek/.ssh/id_ed25519`
 
-![Public Key](publicKey.png)
-* Absolute path: `/Users/derek/.ssh/id_ed25519.pub`
+![Public Key](key_Public.png)
+* Absolute path: `/home/linux/ieng6/oce/78/478/dew009/.ssh/authorized_keys`
 
 ![ieng6 login](ieng6_Login.png)
 
