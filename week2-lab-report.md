@@ -1,5 +1,38 @@
 # Part 1 | Code
-![Code](code.png)
+```
+import java.io.IOException;
+import java.net.URI;
+
+class Handler implements URLHandler {
+    String msgs = "";
+
+    public String handleRequest(URI url) {        
+        if (url.getPath().equals("/")) { return msgs; }
+
+        else if (url.getPath().contains("/add-message")) {
+            String[] param = url.getQuery().split("=");
+
+            if (param[0].equals("s")) {
+                msgs += String.format("%s: %s\n",
+                        param[2],
+                        param[1].substring(0, param[1].indexOf("&user")));
+                return msgs;
+            }
+        }
+        return "404 not found";
+    }
+}
+
+class ChatServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+        }
+        int port = Integer.parseInt(args[0]);
+        Server.start(port, new Handler());
+    }
+}
+```
 # Part 1 | Website Messages
 ![Add Message 1](message1.png)
 * The methods that are called: `main`, `parseInt()`, `new Handler()`, `Server.start()`, `handleRequest()`, `getPath()`, `getQuery()`, `equals()`, `contains()`, `split()`, `String.format()`, `substring()`, `indexOf()`.
