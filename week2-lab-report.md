@@ -53,5 +53,7 @@ class ChatServer {
 ![Public Key](publicKey.png)
 * Absolute path: `/Users/derek/.ssh/id_ed25519.pub`
 
+![ieng6 login](ieng6_Login.png)
+
 # Part 3
 Something new I learned that I didn't know before was the `mkdir` command, which creates a new directory, and the `scp` command, which allows for remotely transferring files between two hosts.
