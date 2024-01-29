@@ -53,7 +53,7 @@ class ChatServer {
 * Public key: ![Public Key](key_Public.png)
 * Absolute path: `/home/linux/ieng6/oce/78/478/dew009/.ssh/authorized_keys`
 
-![ieng6 login](ieng6_Login.png)
+* Passwordless Login: ![ieng6 login](ieng6_Login.png)
 
 # Part 3
 Something new I learned that I didn't know before was the `mkdir` command, which creates a new directory, and the `scp` command, which allows for remotely transferring files between two hosts.
