@@ -47,10 +47,10 @@ class ChatServer {
 * After the request, the `value` of `msgs` changes from `user1: message1` to `user1: message`, followed by `user2: message2` on a separate line.
 
 # Part 2
-![Private Key](key_Private.png)
+* Private key: ![Private Key](key_Private.png)
 * Absolute path: `/c/Users/derek/.ssh/id_ed25519`
 
-![Public Key](key_Public.png)
+* Public key: ![Public Key](key_Public.png)
 * Absolute path: `/home/linux/ieng6/oce/78/478/dew009/.ssh/authorized_keys`
 
 ![ieng6 login](ieng6_Login.png)
