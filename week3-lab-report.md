@@ -1,6 +1,7 @@
 # Part 1
 Array Methods from week 4's lab:
 * Failure-inducing input:
+    *JUnit test
   ```
   public void testReversed2() {
     int[] input1 = {1, 2, 3};
