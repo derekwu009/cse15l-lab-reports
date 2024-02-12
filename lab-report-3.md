@@ -346,8 +346,8 @@ technical/plos/pmed.0020275.txt
 technical/plos/pmed.0020278.txt
 technical/plos/pmed.0020281.txt
 ```
-* This command excludes the lines with `journal` and displays all other lines. This can be useful when you want to see
-  how all lines that doesn't include the word `journal` or in this case, all the files in the `plos` directory that doesn't include `journal`
+* This command excludes the lines with `journal` and displays all other lines in `find-results.txt`. This can be useful when you want to see
+  all the lines that doesn't include the word `journal` or in this case, all the files in the `plos` directory that doesn't include `journal`
   in their name.
 # -c
 ```
