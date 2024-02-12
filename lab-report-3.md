@@ -172,7 +172,7 @@ $ grep -n journal find-results.txt
 103:technical/plos/journal.pbio.0030137.txt
 ```
 * This command find all instances of the word `journal` in `find-results.txt` and displays all the lines containing the word and their line numbers.
-  This can be useful when you want to count the number of lines containing `journal`, or the amount of `journal` files.
+  This can be useful when you want to see all the  lines containing `journal` from `find-results.txt`.
 ```
 $ grep -n "8:25" technical/911report/chapter-1.txt
 80:    Boston Center knew of a problem on the flight in part because just before 8:25 the hijackers had attempted to communicate with the passengers. The microphone was keyed, and immediately one of the hijackers said, "Nobody move. Everything will be okay. If you try to make any moves, you'll endanger yourself and the airplane. Just stay quiet." Air traffic controllers heard the transmission; Ong did not. The hijackers probably did not know how to operate the cockpit radio communication system correctly, and thus inadvertently broadcast their message over the air traffic control channel instead of the cabin public-address channel. Also at 8:25, and again at 8:29, Amy Sweeney got through to the American Flight Services Office in Boston but was cut off after she reported someone was hurt aboard the flight. Three minutes later, Sweeney was reconnected to the office and began relaying updates to the manager, Michael Woodward.
@@ -357,3 +357,51 @@ $ grep -c "DNA" technical/plos/journal.pbio.0020035.txt
 ```
 * This commands counts the number of occurrences of the pattern `DNA` in the file `journal.pbio.0020035.txt` from the `plos` directory.
   This can be useful if you want to see how many times the phrase `DNA` was mentioned in this file
+# -l
+```
+$ grep -r -l "Bin Ladin" technical/911report/
+technical/911report/chapter-10.txt
+technical/911report/chapter-11.txt
+technical/911report/chapter-12.txt
+technical/911report/chapter-13.2.txt
+technical/911report/chapter-13.3.txt
+technical/911report/chapter-13.4.txt
+technical/911report/chapter-13.5.txt
+technical/911report/chapter-2.txt
+technical/911report/chapter-3.txt
+technical/911report/chapter-5.txt
+technical/911report/chapter-6.txt
+technical/911report/chapter-7.txt
+technical/911report/chapter-8.txt
+```
+* This command searches the `911report` directory and displays all of the files containing the pattern `Bin Ladin`.
+  This can be useful when you want to know which files contains which patterns so you don't have to manually look through every file.
+```
+$ grep -r -l "drug" technical/government/
+technical/government/About_LSC/commission_report.txt
+technical/government/About_LSC/Special_report_to_congress.txt
+technical/government/About_LSC/State_Planning_Special_Report.txt
+technical/government/Alcohol_Problems/DraftRecom-PDF.txt
+technical/government/Alcohol_Problems/Session2-PDF.txt
+technical/government/Alcohol_Problems/Session3-PDF.txt
+technical/government/Alcohol_Problems/Session4-PDF.txt
+technical/government/Gen_Account_Office/d01591sp.txt
+technical/government/Gen_Account_Office/og97002.txt
+technical/government/Gen_Account_Office/og99036.txt
+technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
+technical/government/Gen_Account_Office/Testimony_cg00010t.txt
+technical/government/Gen_Account_Office/Testimony_Jul17-2002_d02957t.txt
+technical/government/Media/Abuse_penalties.txt
+technical/government/Media/Annual_Fee.txt
+technical/government/Media/BergenCountyRecord.txt
+technical/government/Media/Eviction_law.txt
+technical/government/Media/FY_04_Budget_Outlook.txt
+technical/government/Media/Higher_Registration_Fees.txt
+technical/government/Media/highlight_Senior_Day.txt
+technical/government/Media/Paralegal_Honored.txt
+technical/government/Media/The_State_of_Pro_Bono.txt
+technical/government/Media/Unusual_Woodburn.txt
+technical/government/Media/Weak_economy.txt
+```
+* This command searches the `government` directory and displays all of the files containing the pattern `drug`.
+  This can be useful when you want to know which files contains which drug so you can navigate to them quicker.
