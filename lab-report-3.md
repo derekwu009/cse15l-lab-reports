@@ -36,7 +36,9 @@ Array Methods from week 4's lab:
     return arr;
   }
   ```
-  * Symptoms: ![Symptoms](symp.png)
+  * Symptoms:
+     * Failure-Inducing Input: ![Symptoms](symp.png)
+     * Input that doesn't induce failure: ![Symptom2](symp2.png)
   * Bug:
      * Before:
 ```
