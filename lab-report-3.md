@@ -379,7 +379,7 @@ technical/911report/chapter-6.txt
 technical/911report/chapter-7.txt
 technical/911report/chapter-8.txt
 ```
-* This command searches the `911report` directory and displays all of the files containing the pattern `Bin Ladin`.
+* This command searches the `911report` directory recursively and displays all of the files containing the pattern `Bin Ladin`.
   This can be useful when you want to know which files contains which patterns so you don't have to manually look through every file.
 ```
 $ grep -r -l "drug" technical/government/
