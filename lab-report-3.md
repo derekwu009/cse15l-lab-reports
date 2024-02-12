@@ -347,7 +347,8 @@ technical/plos/pmed.0020278.txt
 technical/plos/pmed.0020281.txt
 ```
 * This command excludes the lines with `journal` and displays all other lines. This can be useful when you want to see
-  how all lines/files that doesn't include the word `journal`.
+  how all lines that doesn't include the word `journal` or in this case, all the files in the `plos` directory that doesn't include `journal`
+  in their name.
 # -c
 ```
 $ grep -c "hijacking" technical/911report/chapter-1.txt
