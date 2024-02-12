@@ -408,7 +408,7 @@ technical/government/Media/The_State_of_Pro_Bono.txt
 technical/government/Media/Unusual_Woodburn.txt
 technical/government/Media/Weak_economy.txt
 ```
-* This command searches the `government` directory and displays all of the files containing the pattern `drug`.
+* This command searches the `government` directory recursively and displays all of the files containing the pattern `drug`.
   This can be useful when you want to know which files contains which drug so you can navigate to them quicker.
 
 # Source Citing
