@@ -405,3 +405,6 @@ technical/government/Media/Weak_economy.txt
 ```
 * This command searches the `government` directory and displays all of the files containing the pattern `drug`.
   This can be useful when you want to know which files contains which drug so you can navigate to them quicker.
+
+# Source Citing
+All these command-line options were found using `grep --help` in the terminal.
