@@ -6,7 +6,7 @@
 # Step 5
 ![Step 5](step5.png)
 * git clone git@github.com:derekwu009/lab7.git `<enter>`
-* This clones my fork of the repository using the ssh url
+  * This clones my fork of the repository using the ssh url
 
 # Step 6
 ![Step 6](step6.png)
