@@ -10,11 +10,11 @@
 
 # Step 6
 ![Step 6](step6.png)
-* cd lab`<tab>`
+* cd lab`<tab>` `<enter>`
     * Pressed tab to autocomplete from `lab` to `lab7` and this goes into the `lab7` directory
-* ls
+* ls`<enter>`
     * This lists all the files in the directory
-* bash te`<tab>`
+* bash te`<tab>` `<enter>`
     * This runs the test.sh script and I pressed tab to autocomplete from `te` to `test.sh`
 
 # Step 7
